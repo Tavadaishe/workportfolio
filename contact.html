@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Tavadaishe Muzanenhamo</title>
+<meta name="description" content="Get in touch with Tavadaishe Muzanenhamo, GIS and Remote Sensing professional based in Chegutu, Zimbabwe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav">
+    <div class="brand">
+      <div class="mark">TM</div>
+      <div>
+        Tavadaishe Muzanenhamo
+        <small>Geospatial &amp; Remote Sensing</small>
+      </div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <nav class="links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="work.html">Case Studies</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="background-image: linear-gradient(180deg, rgba(10,20,16,.15) 0%, rgba(10,20,16,.35) 55%, rgba(10,20,16,.85) 100%), url('zig%20board.jpeg'); background-position: center 35%;">
+  <div class="hero-inner">
+    <span class="eyebrow">Let's Talk</span>
+    <h1 style="font-size:clamp(1.8rem,3.4vw,2.6rem);">Contact</h1>
+    <p class="lede">Available for consulting engagements, fieldwork and mapping projects across municipal planning, environment, mining and infrastructure.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-grid">
+    <div class="contact-card">
+      <h3 style="margin-bottom:16px;">Get in touch</h3>
+      <ul class="contact-list">
+        <li>
+          <div class="ic">&#9993;</div>
+          <div>
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:tavadaisshealex@gmail.com">tavadaisshealex@gmail.com</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="ic">&#9742;</div>
+          <div>
+            <div class="label">Phone</div>
+            <div class="value"><a href="tel:+263771360683">+263 771 360 683</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="ic">&#128205;</div>
+          <div>
+            <div class="label">Location</div>
+            <div class="value">Chegutu, Zimbabwe</div>
+          </div>
+        </li>
+        <li>
+          <div class="ic">&#127891;</div>
+          <div>
+            <div class="label">Education</div>
+            <div class="value">BSc Honours, Geographical Information Science &amp; Earth Observation — University of Zimbabwe</div>
+          </div>
+        </li>
+      </ul>
+      <a href="Tavadaishe%20CVpdf.pdf" class="btn btn-accent" style="margin-top:20px;background:var(--primary);color:#fff;" download="Tavadaishe_Muzanenhamo_CV.pdf">Download Full CV (PDF)</a>
+      <p style="margin-top:18px;font-size:0.85rem;">Professional references available on request.</p>
+    </div>
+
+    <div>
+      <div class="qr-box">
+        <img id="qrImg" src="" alt="QR code linking to this portfolio">
+        <h4 style="margin-bottom:6px;">Scan to view this portfolio</h4>
+        <p style="font-size:0.85rem;margin-bottom:0;">Attach this QR code to your printed CV so recruiters can jump straight to your live case studies.</p>
+        <p id="qrUrlText" style="font-size:0.78rem;color:var(--ink-soft);margin-top:10px;word-break:break-all;"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 Tavadaishe A. Muzanenhamo. Chegutu, Zimbabwe.</div>
+    <div><a href="mailto:tavadaisshealex@gmail.com">tavadaisshealex@gmail.com</a> &middot; <a href="contact.html">Contact</a></div>
+  </div>
+</footer>
+
+<script>
+  // ---- Update this one line once the site is live on GitHub Pages ----
+  const SITE_URL = "https://tavadaishe.github.io/portfolio/";
+  // ----------------------------------------------------------------------
+  document.getElementById('qrImg').src =
+    "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" + encodeURIComponent(SITE_URL);
+  document.getElementById('qrUrlText').textContent = SITE_URL;
+</script>
+<script src="script.js"></script>
+</body>
+</html>

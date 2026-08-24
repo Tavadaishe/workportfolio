@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case Studies | Tavadaishe Muzanenhamo</title>
+<meta name="description" content="GIS and remote sensing case studies by Tavadaishe Muzanenhamo — municipal planning, land administration, WASH infrastructure, cadastral survey and environmental monitoring.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav">
+    <div class="brand">
+      <div class="mark">TM</div>
+      <div>
+        Tavadaishe Muzanenhamo
+        <small>Geospatial &amp; Remote Sensing</small>
+      </div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <nav class="links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="work.html" class="active">Case Studies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="background-image: linear-gradient(180deg, rgba(10,20,16,.15) 0%, rgba(10,20,16,.35) 55%, rgba(10,20,16,.85) 100%), url('survey.jpeg'); background-position: center 30%;">
+  <div class="hero-inner">
+    <span class="eyebrow">Selected Work</span>
+    <h1 style="font-size:clamp(1.8rem,3.4vw,2.6rem);">Case Studies</h1>
+    <p class="lede">Six projects spanning municipal planning, land administration, infrastructure mapping, cadastral survey and environmental remote sensing — the range of work behind the CV.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="case-grid">
+
+      <!-- 1: Building Footprint -->
+      <article class="case-card">
+        <div class="thumb">
+          <img src="building%20footprint%20map.jpg" alt="Chegutu building footprint map showing built-up density">
+          <span class="cat">Planning &amp; Settlement Analysis</span>
+        </div>
+        <div class="body">
+          <div class="meta">QGIS &middot; OpenStreetMap &middot; Digitizing</div>
+          <h3>Building Footprint Mapping — Chegutu Built-Up Area</h3>
+          <p>Digitized and mapped building footprints across Chegutu to build a baseline settlement inventory, revealing a dense core along the highway/rail corridor and a disconnected low-density cluster to the northwest.</p>
+          <div class="tools"><span>QGIS</span><span>OpenStreetMap</span><span>Cartography</span></div>
+          <details>
+            <summary>Case details</summary>
+            <div class="more">
+              <h5>Problem</h5>
+              <p>Chegutu Municipality lacked a consolidated, current inventory of built structures to inform service extension and zoning review.</p>
+              <h5>Approach</h5>
+              <p>Digitized building footprints against high-resolution basemap imagery, cross-referenced with OSM road and hydrology layers, and produced a cartographic output for planning staff.</p>
+              <h5>Outcome</h5>
+              <p>Identified the highway/rail corridor as the primary growth spine and flagged an unplanned peripheral cluster for ground-truthing before any zoning decision.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <!-- 2: High Density Property Classification -->
+      <article class="case-card">
+        <div class="thumb">
+          <img src="High%20Density%20property%20map.jpg" alt="Chegutu high density property land use classification map">
+          <span class="cat">Land Use &amp; Zoning</span>
+        </div>
+        <div class="body">
+          <div class="meta">QGIS &middot; Cadastral Data &middot; Spatial Database</div>
+          <h3>High Density Property Land Use Classification</h3>
+          <p>Classified thousands of individually numbered high-density stands into Commercial, Institutional, Residential, Open Space and Light Industry categories, with buffer zones flagged for review.</p>
+          <div class="tools"><span>QGIS</span><span>Cadastral Survey</span><span>Zoning</span></div>
+          <details>
+            <summary>Case details</summary>
+            <div class="more">
+              <h5>Problem</h5>
+              <p>Property valuation and change-of-use processing needed an accurate, stand-level land use layer aligned to municipal records.</p>
+              <h5>Approach</h5>
+              <p>Cross-matched thousands of cadastral stand numbers against ground-truthed land use categories, applying a consistent classification and buffer scheme across wards.</p>
+              <h5>Outcome</h5>
+              <p>Delivered a ward-wide classified layer used directly by the Spatial Planning Department for valuation and subdivision decisions.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <!-- 3: Portable Water Distribution -->
+      <article class="case-card">
+        <div class="thumb">
+          <img src="Portable%20water%20distribution%20Project_page-0001.jpg" alt="Chegutu portable water distribution network map with pipe diameter and material charts">
+          <span class="cat">WASH Infrastructure</span>
+        </div>
+        <div class="body">
+          <div class="meta">QGIS &middot; Spatial Database &middot; Analytics</div>
+          <h3>Portable Water Distribution Network &amp; Analytics</h3>
+          <p>Mapped Chegutu's full reticulation network from the raw waterline intake through distribution mains (63mm&ndash;375mm), and built a supporting analytics dashboard of pipe diameter and material composition.</p>
+          <div class="tools"><span>QGIS</span><span>WASH Planning</span><span>Data Visualization</span></div>
+          <details>
+            <summary>Case details</summary>
+            <div class="more">
+              <h5>Problem</h5>
+              <p>Council needed a spatial inventory of the water network and visibility into asset condition risk for infrastructure planning.</p>
+              <h5>Approach</h5>
+              <p>Mapped raw and portable waterlines with pipe diameters, then quantified pipe size distribution and material composition (97.3% AC, 2.6% PVC, 0.1% GL) in a companion chart set.</p>
+              <h5>Outcome</h5>
+              <p>Surfaced the dominance of aging asbestos-cement (AC) pipe as a key asset-renewal risk for council WASH planning.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <!-- 4: NDVI/LST Sanyati -->
+      <article class="case-card">
+        <div class="thumb" style="display:flex;padding:0;">
+          <img src="Sanyati%20NDVI.png" alt="Sanyati NDVI vegetation health map" style="width:50%;height:100%;object-fit:cover;">
+          <img src="sanyati%20LST.png" alt="Sanyati land surface temperature map" style="width:50%;height:100%;object-fit:cover;">
+          <span class="cat">Environment &amp; Geo AI</span>
+        </div>
+        <div class="body">
+          <div class="meta">Google Earth Engine &middot; Landsat &middot; JavaScript</div>
+          <h3>Environmental Monitoring — NDVI &amp; Land Surface Temperature, Sanyati</h3>
+          <p>Computed vegetation health (NDVI) and land surface temperature across the Sanyati catchment from Landsat imagery in Google Earth Engine to flag degradation and thermal stress zones.</p>
+          <div class="tools"><span>Google Earth Engine</span><span>Remote Sensing</span><span>Geo AI</span></div>
+          <details>
+            <summary>Case details</summary>
+            <div class="more">
+              <h5>Problem</h5>
+              <p>Environmental degradation and land surface heating needed to be tracked across a large catchment without ground survey.</p>
+              <h5>Approach</h5>
+              <p>Scripted an NDVI and emissivity-corrected LST workflow in Google Earth Engine over Landsat scenes, deriving values from -0.50 (bare/degraded) to healthy vegetation, and 18.5&deg;C&ndash;42.9&deg;C surface temperature.</p>
+              <h5>Outcome</h5>
+              <p>Produced a repeatable, cloud-based monitoring script for ongoing degradation and thermal-stress tracking, extensible to burn severity mapping.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <!-- 5: Land Bank Map -->
+      <article class="case-card doc">
+        <div class="thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2h9l5 5v15H6z"/><path d="M15 2v5h5"/><path d="M9 13h6M9 17h6M9 9h2"/></svg>
+          <span>Chegutu Land Bank Map &middot; PDF</span>
+          <span class="cat">Land Administration</span>
+        </div>
+        <div class="body">
+          <div class="meta">QGIS &middot; Cadastral Records &middot; Topographic Base</div>
+          <h3>Chegutu Land Bank Map</h3>
+          <p>Mapped and classified all council land bank holdings — state land, solar farm sites, industrial extension, open spaces/wetlands and residential land banks — to support land allocation decisions.</p>
+          <div class="tools"><span>QGIS</span><span>Land Administration</span><span>Council Planning</span></div>
+          <details>
+            <summary>Case details</summary>
+            <div class="more">
+              <h5>Problem</h5>
+              <p>Council needed a single reference map of all land bank parcels and their designated use to guide investment and residential allocation.</p>
+              <h5>Approach</h5>
+              <p>Compiled and classified holdings including Umvovo State land (813 ha), a 67.5 ha solar farm site, a 59.9 ha industrial extension inclusive of a sewer treatment plant, and residential land banks totalling over 590 ha.</p>
+              <h5>Outcome</h5>
+              <p>Gave council a defensible spatial basis for prioritizing residential, industrial and renewable-energy land release.</p>
+            </div>
+          </details>
+          <a href="Land%20Bank%20Map.pdf" target="_blank" rel="noopener" class="btn btn-ghost" style="background:var(--primary);color:#fff;margin-top:14px;font-size:0.8rem;padding:8px 16px;">Open full map (PDF)</a>
+        </div>
+      </article>
+
+      <!-- 6: Industrial Stands cadastral -->
+      <article class="case-card doc">
+        <div class="thumb">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
+          <span>Industrial Stands Cadastre &middot; PDF</span>
+          <span class="cat">Cadastral Survey</span>
+        </div>
+        <div class="body">
+          <div class="meta">QGIS &middot; Cadastral Survey Data</div>
+          <h3>Cadastral Parcel Mapping — Industrial &amp; High Density Stands</h3>
+          <p>Digitized and verified stand-level parcel boundaries and stand numbers for industrial and high-density stands, integrated into the municipal spatial database for subdivision and ownership records.</p>
+          <div class="tools"><span>QGIS</span><span>Cadastral Survey</span><span>Database Management</span></div>
+          <details>
+            <summary>Case details</summary>
+            <div class="more">
+              <h5>Problem</h5>
+              <p>Subdivision and change-of-use applications required accurate, individually numbered parcel boundaries linked to council records.</p>
+              <h5>Approach</h5>
+              <p>Digitized parcel geometry from survey diagrams, matched stand numbers to the municipal database, and validated boundaries against adjacent land parcels.</p>
+              <h5>Outcome</h5>
+              <p>Produced a verified cadastral layer supporting faster subdivision approvals and reduced boundary disputes.</p>
+            </div>
+          </details>
+          <a href="Industrial%20Stands.pdf" target="_blank" rel="noopener" class="btn btn-ghost" style="background:var(--primary);color:#fff;margin-top:14px;font-size:0.8rem;padding:8px 16px;">Open full map (PDF)</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap" style="text-align:center;">
+    <h2>Want the full detail behind any of these?</h2>
+    <p style="max-width:520px;margin:0 auto 20px;">Get in touch — happy to walk through methodology, data sources or share the underlying map files.</p>
+    <a href="contact.html" class="btn btn-accent" style="background:var(--primary);color:#fff;">Get in Touch</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; 2026 Tavadaishe A. Muzanenhamo. Chegutu, Zimbabwe.</div>
+    <div><a href="mailto:tavadaisshealex@gmail.com">tavadaisshealex@gmail.com</a> &middot; <a href="contact.html">Contact</a></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
